@@ -1,0 +1,26 @@
+{
+    "name": "tatranka/pterodactyl-toolkit",
+    "description": "A small PHP client for the read-only Pterodactyl Application API.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "GoldHost\\PterodactylToolkit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GoldHost\\PterodactylToolkit\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
